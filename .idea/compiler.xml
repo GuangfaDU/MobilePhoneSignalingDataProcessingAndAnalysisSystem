@@ -13,10 +13,11 @@
         <module name="algo-service" />
         <module name="user-service" />
         <module name="config" />
-        <module name="file-service" />
         <module name="mail-service" />
+        <module name="file-service" />
         <module name="gateway" />
         <module name="algo-interface" />
+        <module name="file-interface" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,6 +27,8 @@
       <module name="config" target="8" />
       <module name="density" target="8" />
       <module name="eureka" target="8" />
+      <module name="file" target="8" />
+      <module name="file-interface" target="8" />
       <module name="file-service" target="8" />
       <module name="gateway" target="8" />
       <module name="mail-service" target="8" />
@@ -45,6 +48,8 @@
       <module name="config" options="-parameters" />
       <module name="density" options="-parameters" />
       <module name="eureka" options="-parameters" />
+      <module name="file" options="-parameters" />
+      <module name="file-interface" options="-parameters" />
       <module name="file-service" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="mail-service" options="-parameters" />

@@ -18,6 +18,7 @@
         <module>mail-service</module>
         <module>utvs-algo</module>
         <module>trajectory</module>
+        <module>file</module>
     </modules>
 
     <properties>

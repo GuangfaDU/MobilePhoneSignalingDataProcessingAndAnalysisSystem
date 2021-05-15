@@ -1,9 +1,9 @@
-import cn.edu.szu.algo.entity.CustomFile;
 import cn.edu.szu.entity.ResponseEntity;
 import cn.edu.szu.algo.AlgoServiceApplication;
 import cn.edu.szu.algo.client.FileServiceClient;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import entity.CustomFile;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

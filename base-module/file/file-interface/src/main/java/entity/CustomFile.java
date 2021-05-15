@@ -1,4 +1,4 @@
-package cn.edu.szu.algo.entity;
+package entity;
 
 import lombok.Data;
 
