@@ -1,4 +1,4 @@
-package cn.edu.szu.file.entity;
+package entity;
 
 import lombok.Data;
 

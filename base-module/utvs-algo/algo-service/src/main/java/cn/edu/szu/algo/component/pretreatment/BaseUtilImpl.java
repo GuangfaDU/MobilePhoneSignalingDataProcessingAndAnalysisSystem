@@ -1,12 +1,12 @@
 package cn.edu.szu.algo.component.pretreatment;
 
 import cn.edu.szu.algo.client.FileServiceClient;
-import cn.edu.szu.algo.entity.CustomFile;
 import cn.edu.szu.algo.interfaces.DefaultParams;
 import cn.edu.szu.algo.interfaces.pretreatment.IBaseUtil;
 import cn.edu.szu.entity.ResponseEntity;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import entity.CustomFile;
 
 import java.io.File;
 import java.util.HashSet;

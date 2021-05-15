@@ -1,6 +1,5 @@
 package cn.edu.szu.file.resolver;
 
-import cn.edu.szu.file.config.UploadProgressTimerConfig;
 import cn.edu.szu.file.listener.UploadProgressListener;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.FileUpload;
