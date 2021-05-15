@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="registry" />
+        <module name="user-interface" />
+        <module name="utvs-core" />
+        <module name="algo-service" />
+        <module name="user-service" />
+        <module name="config" />
+        <module name="file-service" />
+        <module name="mail-service" />
+        <module name="gateway" />
+        <module name="algo-interface" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="algo-interface" target="8" />
+      <module name="algo-service" target="8" />
+      <module name="base-module" target="8" />
+      <module name="config" target="8" />
+      <module name="density" target="8" />
+      <module name="eureka" target="8" />
+      <module name="file-service" target="8" />
+      <module name="gateway" target="8" />
+      <module name="mail-service" target="8" />
+      <module name="registry" target="8" />
+      <module name="trajectory" target="8" />
+      <module name="user" target="8" />
+      <module name="user-interface" target="8" />
+      <module name="user-service" target="8" />
+      <module name="utvs-algo" target="8" />
+      <module name="utvs-core" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="algo-interface" options="-parameters" />
+      <module name="algo-service" options="-parameters" />
+      <module name="config" options="-parameters" />
+      <module name="density" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="file-service" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="mail-service" options="-parameters" />
+      <module name="registry" options="-parameters" />
+      <module name="trajectory" options="-parameters" />
+      <module name="user" options="-parameters" />
+      <module name="user-interface" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+      <module name="utvs-algo" options="-parameters" />
+      <module name="utvs-core" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+POST http://172.31.70.233:10002/security/login
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: application/x-www-form-urlencoded
+
+userName=utvs_00002&password=123456
+
+--WebAppBoundary--
+
+###
