@@ -1,8 +1,6 @@
 #过滤文件夹target,.idea
 /target
 /.idea
-/out
-*.iml
 
 # Compiled class file
 *.class
