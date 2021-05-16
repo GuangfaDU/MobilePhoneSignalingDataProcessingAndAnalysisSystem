@@ -1,6 +1,6 @@
 package cn.edu.szu.file.listener;
 
-import cn.edu.szu.file.entity.ProgressEntity;
+import entity.ProgressEntity;
 import org.apache.commons.fileupload.ProgressListener;
 import org.springframework.stereotype.Component;
 

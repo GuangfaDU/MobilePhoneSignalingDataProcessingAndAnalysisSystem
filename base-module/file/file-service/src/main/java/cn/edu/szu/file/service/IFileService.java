@@ -1,6 +1,6 @@
 package cn.edu.szu.file.service;
 
-import cn.edu.szu.file.entity.CustomFile;
+import entity.CustomFile;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;

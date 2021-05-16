@@ -4,9 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/base-module/pom.xml" />
-        <option value="$PROJECT_DIR$/base-module/user/user-service/pom.xml" />
-        <option value="$PROJECT_DIR$/base-module/utvs-algo/algo-service/pom.xml" />
         <option value="$PROJECT_DIR$/base-module/file/file-service/pom.xml" />
+        <option value="$PROJECT_DIR$/base-module/utvs-algo/algo-service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

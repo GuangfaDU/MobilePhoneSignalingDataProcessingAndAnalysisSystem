@@ -10,9 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>density</module>
-        <module>pretreatment</module>
-        <module>trajectory</module>
+        <module>algo-service</module>
         <module>algo-interface</module>
     </modules>
 
