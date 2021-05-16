@@ -1,8 +1,8 @@
 package cn.edu.szu.file.config;
 
-import cn.edu.szu.file.entity.ProgressEntity;
 import cn.edu.szu.file.resolver.WebsocketEndpoint;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import entity.ProgressEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;

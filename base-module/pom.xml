@@ -5,8 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.edu.szu</groupId>
-    <artifactId>base-module</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>base-module</artifactId>    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>utvs-core</module>
@@ -14,10 +13,8 @@
         <module>config</module>
         <module>gateway</module>
         <module>user</module>
-        <module>file-service</module>
         <module>mail-service</module>
         <module>utvs-algo</module>
-        <module>trajectory</module>
         <module>file</module>
     </modules>
 

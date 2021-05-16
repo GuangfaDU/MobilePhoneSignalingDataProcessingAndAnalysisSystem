@@ -1,7 +1,7 @@
 package cn.edu.szu.file.service;
 
-import cn.edu.szu.file.entity.CustomFile;
 import cn.edu.szu.file.util.HdfsTemplate;
+import entity.CustomFile;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

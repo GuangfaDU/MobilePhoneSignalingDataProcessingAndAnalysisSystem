@@ -1,6 +1,6 @@
 package cn.edu.szu.file.util;
 
-import cn.edu.szu.file.entity.CustomFile;
+import entity.CustomFile;
 import org.apache.commons.lang.StringUtils;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.LocatedFileStatus;
