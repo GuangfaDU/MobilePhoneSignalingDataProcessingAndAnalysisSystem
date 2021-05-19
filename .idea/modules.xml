@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/base-module/utvs-algo/algo-interface/algo-interface.iml" filepath="$PROJECT_DIR$/base-module/utvs-algo/algo-interface/algo-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-module/utvs-algo/algo-service/algo-service.iml" filepath="$PROJECT_DIR$/base-module/utvs-algo/algo-service/algo-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-module/base-module.iml" filepath="$PROJECT_DIR$/base-module/base-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-module/config/config.iml" filepath="$PROJECT_DIR$/base-module/config/config.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-module/file/file.iml" filepath="$PROJECT_DIR$/base-module/file/file.iml" />
@@ -10,7 +11,6 @@
       <module fileurl="file://$PROJECT_DIR$/base-module/file/file-service/file-service.iml" filepath="$PROJECT_DIR$/base-module/file/file-service/file-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-module/gateway/gateway.iml" filepath="$PROJECT_DIR$/base-module/gateway/gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-module/mail-service/mail-service.iml" filepath="$PROJECT_DIR$/base-module/mail-service/mail-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/base-module/utvs-algo/algo-service/pretreatment.iml" filepath="$PROJECT_DIR$/base-module/utvs-algo/algo-service/pretreatment.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-module/registry/registry.iml" filepath="$PROJECT_DIR$/base-module/registry/registry.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/urban-trajectory-visualization-system.iml" filepath="$PROJECT_DIR$/.idea/urban-trajectory-visualization-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-module/user/user.iml" filepath="$PROJECT_DIR$/base-module/user/user.iml" />

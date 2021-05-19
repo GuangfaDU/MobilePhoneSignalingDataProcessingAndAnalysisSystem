@@ -10,8 +10,8 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>algo-service</module>
         <module>algo-interface</module>
+        <module>algo-service</module>
     </modules>
 
     <artifactId>utvs-algo</artifactId>
