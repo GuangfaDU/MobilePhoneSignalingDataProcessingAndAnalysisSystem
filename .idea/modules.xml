@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/base-module/utvs-algo/algo-interface/algo-interface.iml" filepath="$PROJECT_DIR$/base-module/utvs-algo/algo-interface/algo-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-module/utvs-algo/algo-service/algo-service.iml" filepath="$PROJECT_DIR$/base-module/utvs-algo/algo-service/algo-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-module/base-module.iml" filepath="$PROJECT_DIR$/base-module/base-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-module/config/config.iml" filepath="$PROJECT_DIR$/base-module/config/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-module/file/file.iml" filepath="$PROJECT_DIR$/base-module/file/file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-module/file/file-interface/file-interface.iml" filepath="$PROJECT_DIR$/base-module/file/file-interface/file-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-module/file/file-service/file-service.iml" filepath="$PROJECT_DIR$/base-module/file/file-service/file-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-module/gateway/gateway.iml" filepath="$PROJECT_DIR$/base-module/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-module/mail-service/mail-service.iml" filepath="$PROJECT_DIR$/base-module/mail-service/mail-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-module/registry/registry.iml" filepath="$PROJECT_DIR$/base-module/registry/registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/urban-trajectory-visualization-system.iml" filepath="$PROJECT_DIR$/.idea/urban-trajectory-visualization-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-module/user/user.iml" filepath="$PROJECT_DIR$/base-module/user/user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-module/user/user-interface/user-interface.iml" filepath="$PROJECT_DIR$/base-module/user/user-interface/user-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-module/user/user-service/user-service.iml" filepath="$PROJECT_DIR$/base-module/user/user-service/user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-module/utvs-algo/utvs-algo.iml" filepath="$PROJECT_DIR$/base-module/utvs-algo/utvs-algo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-module/utvs-core/utvs-core.iml" filepath="$PROJECT_DIR$/base-module/utvs-core/utvs-core.iml" />
+    </modules>
+  </component>
+</project>

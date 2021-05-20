@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.edu.szu.algo.dao.SignalDataDao">
+    <insert id="insertBatch">
+        INSERT
+        IGNORE INTO signal_data(imsi, start, end, longitude, latitude)
+        VALUES
+        <foreach collection="signalDataList" item="item" separator=",">
+            (
+            #{item.imsi}, #{item.start}, #{item.end}, #{item.longitude}, #{item.latitude}
+            )
+        </foreach>
+    </insert>
+</mapper>

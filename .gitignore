@@ -1,3 +1,7 @@
+#过滤文件夹target,.idea
+/target
+/.idea
+
 # Compiled class file
 *.class
 

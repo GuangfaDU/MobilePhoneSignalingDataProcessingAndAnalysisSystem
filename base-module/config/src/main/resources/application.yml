@@ -1,0 +1,32 @@
+server:
+  port: 10087
+
+eureka:
+  client:
+    # 缓存在本地的服务列表只读备份，默认为30秒缓存一次
+    registry-fetch-interval-seconds: 10
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:10086/eureka/
+  instance:
+    # dev开发为localhost，服务器部署时为服务器的IP地址
+    hostname: localhost
+    prefer-ip-address: true
+    # 60秒即过期
+    lease-expiration-duration-in-seconds: 60
+    # 30秒一次心跳
+    lease-renewal-interval-in-seconds: 30
+
+spring:
+  profiles:
+    active: default
+  cloud:
+    config:
+      server:
+        # 提前加载配置文件，保证后续数据库连接正常启动
+        bootstrap: true
+        default-profile: default
+        default-label: master
+        git:
+          uri: https://gitee.com/dugfa/urban-trajectory-visualization-system-config
+          username: duguangfa@outlook.com
+          password: ztdz9TVgiVPD5LM
