@@ -10,7 +10,7 @@
         <module name="registry" />
         <module name="user-interface" />
         <module name="utvs-core" />
-        <module name="pretreatment" />
+        <module name="algo-service" />
         <module name="user-service" />
         <module name="config" />
         <module name="mail-service" />
