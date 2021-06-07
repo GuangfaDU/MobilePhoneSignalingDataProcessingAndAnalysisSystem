@@ -3,18 +3,11 @@ server:
 
 eureka:
   client:
-    # 缓存在本地的服务列表只读备份，默认为30秒缓存一次
-    registry-fetch-interval-seconds: 10
     service-url:
       defaultZone: http://${eureka.instance.hostname}:10086/eureka/
   instance:
-    # dev开发为localhost，服务器部署时为服务器的IP地址
     hostname: localhost
     prefer-ip-address: true
-    # 60秒即过期
-    lease-expiration-duration-in-seconds: 60
-    # 30秒一次心跳
-    lease-renewal-interval-in-seconds: 30
 
 spring:
   profiles:
@@ -30,3 +23,15 @@ spring:
           uri: https://gitee.com/dugfa/urban-trajectory-visualization-system-config
           username: duguangfa@outlook.com
           password: ztdz9TVgiVPD5LM
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"

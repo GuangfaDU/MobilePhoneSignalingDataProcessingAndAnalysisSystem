@@ -32,7 +32,6 @@
       <module name="file-service" target="8" />
       <module name="gateway" target="8" />
       <module name="mail-service" target="8" />
-      <module name="pretreatment" target="8" />
       <module name="registry" target="8" />
       <module name="trajectory" target="8" />
       <module name="user" target="8" />
@@ -54,7 +53,6 @@
       <module name="file-service" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="mail-service" options="-parameters" />
-      <module name="pretreatment" options="-parameters" />
       <module name="registry" options="-parameters" />
       <module name="trajectory" options="-parameters" />
       <module name="user" options="-parameters" />
