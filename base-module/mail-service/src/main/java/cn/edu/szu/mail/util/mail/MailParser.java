@@ -22,6 +22,7 @@ public class MailParser {
         MailParser.userUtil = userUtil;
     }
 
+
     public static final int FIXED_PASSWORD_LENGTH = 15;
 
     public static final String TEMPLATE_SUBJECT = "申请UTVS系统账号结果通知";
