@@ -4,7 +4,6 @@ import cn.edu.szu.entity.BaseEntity;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import io.swagger.annotations.ApiParam;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
@@ -28,48 +27,40 @@ public class User extends BaseEntity {
     /**
      * 用户名
      */
-    @ApiParam("用户名")
     @TableField("name")
     private String username;
     /**
      * 用户密码
      */
-    @ApiParam("用户密码")
     @TableField("password")
     private String password;
     /**
      * 用户对应的角色id
      */
-    @ApiParam("角色id")
     @TableField(value = "role_id")
     private Long roleId;
     /**
      * 角色描述
      */
-    @ApiParam("角色描述")
     @TableField(exist = false)
     private Role roleDesc;
     /**
      * 用户个人邮箱
      */
-    @ApiParam("个人邮箱")
     private String email;
     /**
      * 账号创建时间
      */
-    @ApiParam("账号创建时间")
     @TableField(value = "register_time")
     private Timestamp registerTime;
     /**
      * 最近一次登陆时间
      */
-    @ApiParam("账号最近一次的登陆时间")
     @TableField(value = "last_login_time")
     private Timestamp lastLoginTime;
     /**
      * 账号状态： {可用，不可用}
      */
-    @ApiParam("帐号状态, available, unavailable")
     private String status;
     /**
      * 散列密码加上的盐
